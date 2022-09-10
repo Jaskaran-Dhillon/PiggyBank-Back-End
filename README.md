@@ -19,9 +19,9 @@ Steps:\
 1.) Connect the repository to the hosting service. \
 2.) Add the following environment variables
 - `SECRET`="Some long complicated string"
-- `DATABASE_URL`="The url of the PostgreSql DB you've hosted"
+- `DATABASE_URL`="The url of the PostgreSQL DB you've hosted"
 
-### `Note #4`: The env var `NODE_ENV` must be `production` when deploying (default on most providers), modify the code if setting as something different.
+### `Note #2`: The env var `NODE_ENV` must be `production` when deploying (default on most providers), modify the code if setting as something different.
 
 ### Server URL: https://piggybankbackend.onrender.com
 
