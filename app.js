@@ -18,8 +18,8 @@ sequelize
     console.log("Failed to sync", e);
   });
 
-app.use(cors());
 app.options('*', cors());
+app.use(cors());
 app.use(bodyParser.json());
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
