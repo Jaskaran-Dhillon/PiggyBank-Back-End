@@ -7,7 +7,6 @@ const bodyParser = require("body-parser");
 
 const sequelize = require("./util/database");
 
-//NOTE: Run with cmd terminal to use nodemon
 const app = express();
 
 sequelize
